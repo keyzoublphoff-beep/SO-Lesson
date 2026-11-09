@@ -1,8 +1,8 @@
 So’ lesson — édition thèmes personnalisés et points cumulés
 
 Déploiement : importer ce répertoire dans un dépôt GitHub puis connecter ce dépôt à Netlify.
-Répertoire de publication : site
-Fonctions Netlify : netlify/functions
+Répertoire de publication : site (index.html et assets/)
+Fonctions Netlify : netlify/functions (API : api/index.mjs)
 Dépendance : @netlify/blobs, installée via package.json
 
 Thèmes : Solanin avec la couverture déjà transmise par l’utilisateur par défaut.
