@@ -1,0 +1,16 @@
+So’ lesson — édition thèmes personnalisés et points cumulés
+
+Déploiement : importer ce répertoire dans un dépôt GitHub puis connecter ce dépôt à Netlify.
+Répertoire de publication : site
+Fonctions Netlify : netlify/functions
+Dépendance : @netlify/blobs, installée via package.json
+
+Thèmes : Solanin avec la couverture déjà transmise par l’utilisateur par défaut.
+La référence Genius demandée (https://genius.com/album_cover_arts/1315271) n’était pas accessible pour vérifier ou récupérer cette image exacte.
+Les thèmes personnels sont stockés localement dans le navigateur, non synchronisés entre appareils.
+
+Classement : 10 points par question correcte, une seule fois par question et utilisateur, calcul sur le serveur Netlify.
+Les nouveaux comptes demandent un mot de passe d’au moins 12 caractères.
+Pour les comptes et le classement partagé, utiliser HTTPS sur Netlify. Éviter les mots de passe réutilisés.
+
+Limites de sécurité : les questions et choix sont présents dans le navigateur, ce qui ne rend pas les épreuves inviolables ; le stockage par utilisateur peut exposer à une course en cas de validations simultanées. Le système ne doit pas gérer des informations sensibles. Pour des comptes publics importants, utiliser un fournisseur d’identité professionnel et une vraie base transactionnelle.
